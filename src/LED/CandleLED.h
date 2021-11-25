@@ -12,7 +12,7 @@ public:
 	CandleLED(string id, int channel, int gpioPin) : LED(id, channel, gpioPin)
 	{
 		LED::SetMinBrightness(50);
-		LED::SetMaxBrightness(350);
+		LED::SetMaxBrightness(450);
 	}
 
 	void Update(unsigned long tickMilliSeconds)

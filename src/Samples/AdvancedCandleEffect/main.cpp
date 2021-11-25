@@ -24,7 +24,7 @@ void setup()
   Serial.begin(9600);
 
   CandleLED *led1 = new CandleLED("E", 16, 1);
-  AdvancedCandleEffect *led2AdvancedCandleEffect = new AdvancedCandleEffect(1000);
+  AdvancedCandleEffect *led2AdvancedCandleEffect = new AdvancedCandleEffect(500);
   led1->AddEffect(led2AdvancedCandleEffect);
   led1->Setup();
 
